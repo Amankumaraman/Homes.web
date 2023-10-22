@@ -1,0 +1,370 @@
+@media (max-width: 769px) {
+  .navbar {
+    padding: 16px 30px;
+  }
+  .middle ul :nth-child(3),
+  .middle ul :nth-child(4),
+  .middle ul :nth-child(5) {
+    display: none;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 28px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". .";
+    padding: 0px 50px;
+  }
+
+  .mainProperty {
+    width: 100%;
+  }
+  .topProperties {
+    display: flex;
+    padding: 40px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .rightImg {
+    width: 80%;
+    padding: 10px 0;
+  }
+
+  .rightImg > img {
+    object-fit: cover;
+    height: 350px;
+    width: 440px;
+  }
+
+  .slider {
+    display: flex;
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .featuredProperties {
+    display: flex;
+    padding: 40px 13px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: var(--Blue, #1e2b4c);
+  }
+  .featuredCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 28px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". .";
+    padding: 0px 50px;
+  }
+
+  .footerTop {
+    padding: 20px 50px;
+    width: 100%;
+  }
+
+  .welcome {
+    display: flex;
+    height: 600px;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .center {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 80%;
+  }
+
+  .namePlace > span {
+    font-size: 14px;
+  }
+  .namePlace > h2 {
+    font-size: 35px;
+  }
+  .price {
+    font-size: 25px;
+  }
+
+  .startJourney {
+    padding: 40px 50px;
+  }
+  .startTitle {
+    font-size: 30px;
+  }
+  .startDescription {
+    font-size: 18px;
+  }
+
+  .otherServices {
+    padding: 40px 50px;
+  }
+
+  .otherServices > h1 {
+    font-size: 30px;
+  }
+
+  .leftThumbnail > img {
+    margin: 8px 0 8px 8px;
+    display: none;
+  }
+
+  .propertyCard {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 22.39px;
+  }
+
+  .rightSectionProperties {
+    /* width: 1156px; */
+    padding: 15px 14px;
+
+    row-gap: 19px;
+  }
+
+  .propertyType {
+    padding: 4px 15px;
+  }
+  .bottomLineContainer > span {
+    font-size: 16px;
+
+    line-height: 20px;
+  }
+  .bottomLineContainer > button {
+    padding: 8px 19px;
+
+    font-size: 12px;
+
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+  .midCenter {
+    margin: 0 23px;
+  }
+
+  .midContainer1 {
+    padding: 12px 15px;
+  }
+
+  .topBarProperties {
+    padding: 25px 25px;
+  }
+  .searchBar2 {
+    width: 14rem;
+  }
+
+  .searchBar2 > input::placeholder {
+    font-size: 12px;
+
+    line-height: 15px;
+  }
+  .leftTopBar > span {
+    font-size: 20px;
+
+    line-height: 20px;
+  }
+
+  .searchButton > span {
+    font-size: 12px;
+
+    line-height: 20px;
+  }
+  .right button span {
+    color: var(--White, #fff);
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .middleFooter > span,
+  .lastFooter > span {
+    font-size: 14px;
+
+    line-height: 35px;
+  }
+
+  .footerBottom > span {
+    font-size: 12px;
+
+    line-height: 25px;
+  }
+
+  .arrow2 {
+    right: 50px;
+  }
+  .arrow1 {
+    left: 50px;
+  }
+  .midContainer {
+    gap: 70px;
+  }
+}
+
+/* //////////////////////////////////////////////////////////mobile screen////////////////////////////////////// */
+
+@media (max-width: 477px) {
+  .navbar {
+    padding: 5px 30px;
+  }
+  .middle ul :nth-child(3),
+  .middle ul :nth-child(4),
+  .middle ul :nth-child(5) {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .topText > span {
+    font-size: 35px;
+
+    line-height: 33px;
+  }
+
+  .h1h2 > h1 {
+    font-size: 47px;
+    line-height: 36px;
+  }
+
+  .h1h2 > h2 {
+    font-size: 25px;
+
+    line-height: 32px;
+  }
+
+  .rightImg {
+    display: none;
+  }
+
+  .mainText > p {
+    font-size: 15px;
+  }
+  .searchButton {
+    padding: 8px 20px;
+  }
+  .searchButton > span {
+    font-size: 12px;
+  }
+
+  .searchBar > input::placeholder {
+    font-size: 12px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas: ".";
+  }
+  .featuredCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas: ".";
+  }
+
+  .footerTop {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .middleFooter > span,
+  .lastFooter > span {
+    font-size: 10px;
+    line-height: 30px;
+  }
+
+  .footerBottom > span {
+    font-size: 10px;
+  }
+
+  .otherSlider {
+    grid-auto-flow: 0;
+  }
+  .startTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  .startDescription {
+    color: var(--White, #fff);
+    /* text-align: center; */
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 85%;
+  }
+
+  .learnButton {
+    padding: 8px 26px;
+
+    font-size: 12px;
+
+    line-height: 12px;
+  }
+
+  .topProjects > h1 {
+    font-size: 30px;
+
+    line-height: 29px;
+  }
+
+  .featuredProperties > h1 {
+    font-size: 35px;
+  }
+
+  .leftSectionProperties {
+    display: none;
+  }
+
+  .topBarProperties {
+    padding: 18px 10px;
+  }
+
+  .leftTopBar > span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .searchBar2 {
+    width: 11rem;
+  }
+
+  .arrow2 {
+    right: 25px;
+  }
+  .arrow1 {
+    left: 25px;
+  }
+}
